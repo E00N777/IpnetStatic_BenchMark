@@ -10,5 +10,5 @@ scan-build \
   -enable-checker optin \
   -disable-checker security.insecureAPI \
   -v \
-  -o ./all_checkers_report \
-  clang++ -c *.cpp
+  -o ./c_benchmark_report \
+  clang -c *.c

@@ -1,0 +1,6 @@
+#c/cpp object files
+*.o
+
+#report files
+c_benchmark_report/
+cpp_benchmark_report/
